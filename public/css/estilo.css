@@ -1,0 +1,30 @@
+body {
+  --primary-color: rgb(221, 69, 13);  
+
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #ccf9ff;
+  color: #404040;
+}
+h1 {
+  margin: 0 0 10px; 
+}
+
+my-nav ul, my-nav li {
+  margin: 0;
+  padding: 0;
+}
+my-nav li {
+  display: inline-block;
+  margin-right: 15px;
+  list-style-type: none;
+}
+my-nav li a {
+  color: #fff;
+}
+.superheader {
+  display: flex;
+  margin: 0 5px;
+}
+.superheader h1 {
+  flex-grow: 1;
+}
